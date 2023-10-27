@@ -1,0 +1,40 @@
+.projet h4 {
+  font-size: 24px;
+  margin: 30px 0;
+}
+
+.projet .projects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.projet .projects h5 {
+  width: 100%;
+  font-size: 24px;
+  margin: 30px 0;
+}
+
+.projet .projects .project .link-cta {
+  margin: 0;
+  width: 120px;
+}
+
+.projet .projects .project .link-cta.contact-us {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 50px 0;
+}
+
+@media screen and (min-width: 769px) {
+  .first-section .shapes {
+    width: 450px;
+  }
+}
+/*# sourceMappingURL=about.css.map */

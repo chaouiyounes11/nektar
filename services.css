@@ -1,0 +1,16 @@
+@media screen and (min-width: 769px) {
+  .shapes {
+    width: 370px !important;
+  }
+}
+
+.shapes h2 span:nth-child(1) {
+  font-size: 40px;
+}
+
+@media screen and (min-width: 769px) {
+  .shapes h2 span:nth-child(1) {
+    font-size: 55px;
+  }
+}
+/*# sourceMappingURL=services.css.map */

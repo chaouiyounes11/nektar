@@ -1,0 +1,13 @@
+.shapes {
+  @media screen and (min-width: 769px) {
+    width: 370px !important;
+  }
+  h2 {
+    span:nth-child(1) {
+      font-size: 40px;
+      @media screen and (min-width: 769px) {
+        font-size: 55px;
+      }
+    }
+  }
+}
